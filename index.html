@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MK Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="loading"><div class="inner"></div></div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="images/slide1.jpg" alt="" />
+        <img src="images/slide2.jpg" alt="" />
+        <img src="images/slide3.jpg" alt="" />
+      </div>
+
+      <div class="title-message">
+        <div class="heading">
+          <p class="main">MICHAEL KLINGELBERG</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a> <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skill Set</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="about-image" src="images/Michael-Klingelberg.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4>About Me.</h4>
+            <p>
+              As a Software Developer I have done work with API creation,
+              front-end/back-end web applications, database/server management
+              and graphic design. I enjoy each aspect of the development
+              process, from turning complex problems into simple, beautiful
+              solutions, to designing awesome, performant websites and apps. I'm
+              most motivated by product success and business growth, while I'm
+              always interested in the newest technologies out there, I believe
+              in using the right tool for the project at hand. <br /><br />
+              I also have over 12 years of sales, marketing and business
+              experience, which allows me to bring unqiue insight into any
+              project that I'm apart of. I have seen just how valuable this
+              experience has been in creating end products that clients and
+              stakeholders love!
+            </p>
+            <p>
+              When !working, I love being outdoors, hiking, camping and enjoying
+              the occasional video game with my kids.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL KNOWLEDGE</h2>
+            <p>A representation of proficiency in each skill</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="78">
+                <span class="percent">78</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in almost every web based project</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="71">
+                <span class="percent">71</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Node/Express</h4>
+              <p>For web facing apps that need services, I turn to Node.js</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>React/Redux</h4>
+              <p>Need alot of dynamic content, react! I love react.</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="51">
+                <span class="percent">51</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>C#</h4>
+              <p>
+                The first language I learned, currently working on my
+                proficiency.
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="62">
+                <span class="percent">62</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>GoLang</h4>
+              <p>
+                Used at my current company, great in microservices environment.
+              </p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>HTML5</h4>
+              <p>If its on the web, we're using HTML.</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="82">
+                <span class="percent">82</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>CSS3</h4>
+              <p>This is where my inner designer/creater comes out.</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="43">
+                <span class="percent">43</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>MySQL</h4>
+              <p>I love all things data</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">If you're interested</p>
+        <h2>I'd love to hear from you!</h2>
+        <a href="mailto:mdklingelberg@gmail.com" class="contactButton"
+          >GET IN TOUCH</a
+        >
+      </div>
+    </div>
+
+    <div id="portfolio" class="portfolio-section section">
+      <div class="container">
+        <div class="row">
+          <div class="heading"><h2>PORTFOLIO</h2></div>
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">WEB APPS</a></li>
+              <li><a href="#" data-filter=".websites">WEBSITES</a></li>
+              <li><a href="#" data-filter=".projects">PROJECTS</a></li>
+            </ul>
+          </div>
+
+          <div class="itemContainer">
+            <ul class="items">
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <a href="https://github.com/mdk82/EcomRush">
+                    <img src="images/portfolio/thumbnails/ecomrush.jpg" />
+                  </a>
+                  <div class="iconOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <a href="https://github.com/mdk82/FriendFinder/tree/master/FriendFinder/app">
+                    <img src="images/portfolio/thumbnails/friendfinder.jpg" />
+                  </a>
+                  <div class="iconOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <a href="https://github.com/mdk82/EcomRush">
+                    <img src="images/portfolio/thumbnails/faceme.png" />
+                  </a>
+                  <div class="iconOverlay"></div>
+                </div>
+              </li>
+
+              <!-- <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <a href="https://github.com/mdk82/EcomRush">
+                    <img src="images/portfolio/thumbnails/ecomrush.jpg" />
+                  </a>
+                  <div class="iconOverlay"></div>
+                </div>
+              </li> -->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Michael Klingelberg 2019</p>
+      </div>
+    </div>
+
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
