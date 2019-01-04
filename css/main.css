@@ -69,6 +69,22 @@ body {
     max-width: 100%;
 }
 
+.download {
+    color: #f5f6fa;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #444;
+    border-radius: 2px;
+    background-color: #40739e;
+}
+
+.download:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #353b48;
+}
+
 .skillsSection {
     background-color: #40739e;
     color: #f5f6fa;
@@ -210,6 +226,12 @@ body {
     background-color: #353b48;
     position: relative;
     display: inline-block;
+
+    -webkit-transition: all 0.2s linear, 0.4s;
+    -moz-transition: all 0.2s linear, 0.4s;
+    -o-transition: all 0.2s linear, 0.4s;
+    -ms-transition: all 0.2s linear, 0.4s;
+    -transition: all 0.2s linear, 0.4s;
 }
 
 .items .iconOverlay {
@@ -243,6 +265,15 @@ body {
 
 .items {
     padding: 0;
+}
+
+.items .link {
+    float: left;
+    left: -200px;
+}
+
+.items .item:hover .link {
+    left: 30px;
 }
 
 .copyrightSection {
