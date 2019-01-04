@@ -226,6 +226,12 @@ body {
     background-color: #353b48;
     position: relative;
     display: inline-block;
+
+    -webkit-transition: all 0.2s linear, 0.4s;
+    -moz-transition: all 0.2s linear, 0.4s;
+    -o-transition: all 0.2s linear, 0.4s;
+    -ms-transition: all 0.2s linear, 0.4s;
+    -transition: all 0.2s linear, 0.4s;
 }
 
 .items .iconOverlay {
@@ -259,6 +265,15 @@ body {
 
 .items {
     padding: 0;
+}
+
+.items .link {
+    float: left;
+    left: -200px;
+}
+
+.items .item:hover .link {
+    left: 30px;
 }
 
 .copyrightSection {
